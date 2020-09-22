@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
 }
-#name{
+/*#name{
   margin-left: 50px;
   margin-top: 40px;
   font-family: Georgia, serif;
@@ -21,17 +21,28 @@ body {
   font-style: italic;
   font-weight: lighter;
   margin-top: 0px;
+}*/
+#navbar{
+  float:right
 }
-#navbar li{
-  margin-right: 10px;
+#navbar ul{
+  list-style-type: none;
   display: inline;
-  color: #FEF9CC;
-  font-family: Georgia, serif;
-  font-weight: lighter;
+  margin: 10;
+  padding: 0;
+  overflow: none;
   }
 
-/*li.font{
-    color: #FEF9CC;
+  #navbar li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     font-family: Georgia, serif;
     font-weight: lighter;
+  }
+
+  #navbar li a:hover {
+    color: white;
   }
