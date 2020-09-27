@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Works page </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleforwork.css">
+</head>
+
+<body>
+
+<div>
+<ul id ="navbar">
+  <li><a href="about.html">bio</a></li>
+  <li><a href="exhibitions.html">exhibitions</a></li>
+  <li><a href="works.html"> work</a></li>
+  <li><a href="contact.html">contact</a></li>
+</ul>
+</div>
+
+<br id="br"/>
+
+<!-- the title of the gallery of images-->
+<div id="header">
+  <h1>Gallery of Works</h1>
+  <p>Click on the images below</p>
+  </div>
+
+<!-- the four columns-->
+  <div id="row">
+    <div id="column">
+      <img src="edens garden.jpg" alt="Edens Garden" style="width:100%"
+      onclick="myFunction(this)";>
+      </div>
+
+      <div id="column">
+        <img src="summer portrait.jpg" alt="Self Portrait" style="width:100%"
+        onclick="myFunction(this)";>
+        </div>
+
+      <div id="column">
+        <img src="drawings.jpg" alt="Collection of Drawings" style="width:100%"
+          onclick="myFunction(this)";>
+      </div>
+
+      <div id="column">
+        <img src="henris.jpg" alt="Henris Landscape" style="width:100%"
+        onclick="myFunction(this)";>
+      </div>
+
+  <div id="container">
+          <span onclick="this.parentElement.style.display='none'" id="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%">
+          <div id="imgtext"></div>
+  </div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+<br id="brl"/>
+
+<div id="table" class="table">
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Size</th>
+      <th>Medium</th>
+    </tr>
+    <tr>
+      <td>Edens Garden</td>
+      <td>36x72in</td>
+      <td>Acrylic on canvas</td>
+    </tr>
+    <tr>
+      <td>Self Portrait</td>
+      <td>18x24in</td>
+      <td>Oil on canvas</td>
+    </tr>
+    <tr>
+      <td>Collection of Drawings</td>
+      <td>various</td>
+      <td>Graphite, pencil, colored pencil</td>
+    </tr>
+    <tr>
+      <td>Henri's Landscape</td>
+      <td>42x48in</td>
+      <td>Acrylic on canvas</td>
+    </tr>
+  </table>
+</div>
+
+  <br id="br"/>
+
+<div id="footer">
+  <p> Designed by Ally Low, Hannah Metzger, & Mustafa</p>
+  <p> Last Update September 2020 </p>
+</div>
+
+</body>
+</html>

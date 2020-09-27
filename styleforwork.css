@@ -1,0 +1,152 @@
+body {
+  background-image: url('MEinplants.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+#br{
+  clear:right;
+}
+#brl{
+  clear:left;
+}
+/* the navbar styling */
+#navbar{
+  float:right
+}
+#navbar ul{
+  list-style-type: none;
+  display: inline;
+  margin: 10;
+  padding: 0;
+  overflow: none;
+  }
+
+  #navbar li{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+  }
+  #navbar li a:link {
+    color: #ffffe6;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+  }
+  #navbar li a:visited {
+    color: #ffffe6;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+  }
+
+  #navbar li a:hover {
+    color:#ffb3b3;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+  }
+  /* .center{
+  margin-left: auto;
+  margin-right: auto;
+  } */
+
+
+/*styling of the table*/
+
+#table{
+  position: relative;
+  padding-left: 16.5em;
+  padding-top: 1em;
+  top:2em;
+  bottom:10em;
+}
+
+  #table th, td{
+    border: 1px solid #ffb3b3;
+    border-collapse: collapse;
+    padding: 15px;
+    color: #ffffe6;
+  }
+
+
+  /*styling of the image gallery*/
+
+  #header {
+    text-align:center;
+    /* padding-top:3em;
+    padding-left: 3em; */
+    color:#ffffe6;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+  }
+
+/* spreads the images across the width of the webpage */
+  *{
+    box-sizing: border-box;
+  }
+
+/* The grid: Four equal columns that floats next to each other */
+#column{
+  float:left;
+  width: 25%;
+  padding: 10px;
+}
+
+/*style of the images in the grid */
+#column img{
+  opacity: 0.9;
+  cursor: pointer;
+}
+#column img:hover{
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+#row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* expands the image container */
+#container{
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* close button above the expanded image */
+#closebtn {
+  position: absolute;
+  top: 9.5em;
+  right:0.5em;
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/* footer */
+  #footer {
+    position: relative;
+    top:2em;
+    left:1em;
+    bottom:2em;
+    width:100%;
+    color: #ffffe6;
+    text-align: left;
+    text-decoration: none;
+    font-family: Georgia, serif;
+  }
