@@ -9,31 +9,12 @@ body {
 #br{
   clear:right;
 }
-
 #brl{
   clear:left;
 }
-#header{
-  margin-left: 5em;;
-  margin-top: 5em;
-  padding-right:0;
-  font-family: Georgia, serif;
-  /* font-weight: 400; */
-  color:#FEF9CC;
-  /* margin-bottom: 1px; */
-}
-#header h2{
-  margin-left: 3em;
-  padding-top: 0em;
-  font-family: Georgia, serif;
-  color:#FEF9CC;
-  font-style: italic;
-  font-weight: lighter;
-}
 /* the navbar styling */
 #navbar{
-  float:right;
-  margin-left:20em;
+  float:right
 }
 #navbar ul{
   list-style-type: none;
@@ -70,11 +51,31 @@ body {
     font-weight: lighter;
   }
 
+  /*styling of the image gallery*/
+
+  #header {
+    padding-top:0em;
+    text-align:center;
+    color:#ffffe6;
+    font-family: Georgia, serif;
+  }
+
+  #video video{
+    background-color:black;
+    opacity: .95;
+    margin-left: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 75%;
+    height: 75%;
+  }
+
   /* footer */
     #footer {
       position: relative;
-      margin-top:44em;
-      margin-left:1em;
+      top:2em;
+      left:1em;
+      bottom:2em;
       width:100%;
       color: #ffffe6;
       text-align: left;
