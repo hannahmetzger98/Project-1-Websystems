@@ -78,8 +78,6 @@ body {
 
   #header {
     text-align:center;
-    /* padding-top:3em;
-    padding-left: 3em; */
     color:#ffffe6;
     font-family: Georgia, serif;
     font-weight: lighter;
@@ -99,7 +97,7 @@ body {
 
 /*style of the images in the grid */
 #column img{
-  opacity: 0.9;
+  opacity: 0.85;
   cursor: pointer;
 }
 #column img:hover{
