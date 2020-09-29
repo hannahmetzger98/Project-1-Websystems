@@ -1,0 +1,46 @@
+body{
+  background-image: url('MEinplants.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+input[type=submit]{
+  	background-color:coral;
+  	cursor:pointer;
+  	width:120px;
+  	border:none;
+  	text-align:left;
+}
+
+.container{
+  	border-radius:none;
+	display:inline-block;
+	float:right;
+	background-color: lightyellow; 
+	padding: 20px;
+	margin-left: 5px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+h1{
+	text-align:left;
+	font-family:Georgia, serif;
+	color:white;
+	font-weight: lighter;
+}
+h3{
+	color:white;
+	font-family:Georgia,serif;
+	font-weight: lighter;
+	padding-left: 20px;
+}
+
+#header h4, h2 {
+	text-align: left;
+	font-family: Helvetica, sans serif;
+	font-weight: lighter;
+}

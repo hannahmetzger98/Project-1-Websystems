@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact Page </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" href="mycontact.css">  		
+</head>
+<body>
+
+<div class="contact">
+	<h1>contact</h1>
+	<h3>Instagram</h3>
+	<h3>@hannahmetzgerart</h3>
+</div>
+	<a href="https://www.instagram.com/hannahmetzgerart/" target="_blank">
+	<img src="https://i.pinimg.com/236x/2f/b9/bd/2fb9bd91b530d20410744249a418240b.jpg" alt="Instagram logo" style="width:50px;height:50px;padding-left:20px;">
+	</a>
+<div class="container">
+	<form action="/action_page.php" autocomplete="on">
+	<div class="header">
+		<h2>Information Request</h2>
+		<h4>Please fill out the form below to get in touch with us.</h4>
+		<br>
+	</div>
+	<div class="names">
+		<label for="fname">Name</label>
+		<br>
+		<input type="text" id="fname" name="fname" placeholder="Your first name" size="20" required>
+		<input type="text" id="lname" name="lname" placeholder="Your last name" size="20" required><br>
+	</div>
+	<div class="emails">
+		<label for="email">Email</label>
+		<br>
+		<input type="email" id="email" name="email" placeholder="Your email address" size="40" required><br>
+	</div>
+	<div class="phones">
+		<label for="phone">Telephone</label><br>
+		<input type="text" id="phone" name="phone" placeholder="888-555-1111" maxlength="15" size="15" required><br>
+	</div>
+	<div class="requests">
+		<label for="request">Request</label><br>
+		<textarea name="request" rows="10" cols="40" required>Your request</textarea><br>
+	</div>
+	<input type="submit" value="Submit">
+	</form>
+</div>
+</div>
+</body>
+</html>
