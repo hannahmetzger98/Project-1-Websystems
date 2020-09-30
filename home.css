@@ -19,6 +19,10 @@
 
 }
 
+#indent {
+  text-indent:90px;
+  visibility: hidden;
+}
 h2{
   font-style: italic;
   text-align: left;
@@ -31,12 +35,6 @@ h2{
 
 }
 
-
-
-#indent {
-  text-indent: 300px;
-  visibility: hidden;
-}
 
 #navbar li{
   display: inline-block;
